@@ -9,7 +9,7 @@ __version__ = "0.0.3"
 REPO_NAME = "youtube_scrapper"
 PKG_NAME= "youtube_scrapper"
 AUTHOR_USER_NAME = "gufran21"
-AUTHOR_EMAIL = "gufranamu2004@gmail"
+AUTHOR_EMAIL = "gufranamu2004@gmail.com"
 
 setup(
     name=PKG_NAME,
