@@ -10,7 +10,7 @@ import requests
 pattern = re.compile('(?<=shortDescription":").*(?=","isCrawlable)')
 pattern1= re.compile(r'(<title>|<\/?title>|\bYouTube\b)|[^\w\s]')
 
-class youtube_scrapper:
+class Youtube_Scrapper:
     def __init__(self):
         pass
     def single_video(self,url,out_path,audio_only=False,transcript=False,transcript_lang=None,description=False):
@@ -59,11 +59,9 @@ class youtube_scrapper:
                 f = open(f"{out_path}/description/{v_id}.txt","w",encoding="utf-8")
                 f.write(description_text)
                 f.close()
-                f = open(f"{out_path}/transcript/{v_id}.txt", "w",encoding="utf-8")
+                f = open(f"{out_path}/transcript/{v_id}.txt", "w", encoding="utf-8")
                 f.write(transcript_txt)
                 f.close()
                 print("successfully dowloaded")
         except Exception as e:
             print(e)
-
-
