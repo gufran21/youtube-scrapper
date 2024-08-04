@@ -2,7 +2,8 @@ pytube
 youtube_transcript_api
 scrapetube
 bs4
-
+requests
+types-requests
 # dev requirements -
 
 pytest==7.1.3
