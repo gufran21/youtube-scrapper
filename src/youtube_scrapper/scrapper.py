@@ -10,9 +10,7 @@ import requests
 pattern = re.compile('(?<=shortDescription":").*(?=","isCrawlable)')
 pattern1= re.compile(r'(<title>|<\/?title>|\bYouTube\b)|[^\w\s]')
 
-class Youtube_Scrapper:
-    def __init__(self):
-        pass
+class YoutubeScrapper:
     def single_video(self,url,out_path,audio_only=False,transcript=False,transcript_lang=None,description=False):
         try:
             v_id=url.split("v=")[1]
