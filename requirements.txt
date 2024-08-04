@@ -2,6 +2,6 @@ pytube==7.0.16
 youtube_transcript_api==0.6.2
 scrapetube==2.5.1
 bs4==0.0.2
-requests
-types-requests
+requests==2.32.3
+types-requests==2.31.0.7
 -e .
