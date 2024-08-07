@@ -7,7 +7,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 __version__ = "0.0.4"
 REPO_NAME = "youtube_scrapper"
-PKG_NAME= "yt-downloader"
+PKG_NAME= "scrape-youtube"
 AUTHOR_USER_NAME ="gufran21"
 AUTHOR_EMAIL = "gufranamu2004@gmail.com"
 
