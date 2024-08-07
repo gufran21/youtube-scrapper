@@ -5,10 +5,10 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
    
 
-__version__ = "0.0.3"
+__version__ = "0.0.4"
 REPO_NAME = "youtube_scrapper"
-PKG_NAME= "ytd"
-AUTHOR_USER_NAME = "gufran21"
+PKG_NAME= "yt-downloader"
+AUTHOR_USER_NAME ="gufran21"
 AUTHOR_EMAIL = "gufranamu2004@gmail.com"
 
 setup(
