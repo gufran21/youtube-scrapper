@@ -11,7 +11,7 @@ pattern = re.compile('(?<=shortDescription":").*(?=","isCrawlable)')
 pattern1= re.compile(r'(<title>|<\/?title>|\bYouTube\b)|[^\w\s]')
 
 class YoutubeScrapper:
-    def __init__():
+    def __init__(self):
         pass
     def single_video(self,url,out_path,audio_only=False,transcript=False,transcript_lang=None,description=False):
         try:
