@@ -1,4 +1,4 @@
-pytube
+pytube3
 youtube_transcript_api
 scrapetube
 bs4
